@@ -1,0 +1,37 @@
+@import'https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet';
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+
+}
+h1,
+h2 {
+	font-family: "Lato";
+	color: blue;
+	font-weight: 700;
+}
+h1{ 
+	color: darkred;
+}
+a {
+	font-family: "CircularStd";
+	color: grey;
+	font-weight: 500;
+}
+p{
+	font-family: "Roboto";
+	font-weight: 400;
+}
+.description a {
+	color: green;
+}
